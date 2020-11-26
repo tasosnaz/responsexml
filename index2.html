@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Student adress</h1>
+        <button id="btn">Request data</button>
+        <p id="demo"></p>
+        <table id="info"></table>
+    </div>
+    
+    <script>
+     document.getElementById("btn").addEventListener('click', loadxml);
+
+        function loadxml() {
+            var req;
+            if (window.XMLHttpRequest) {
+                req = new XMLHttpRequest();
+            }
+            else {
+                req = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            req.onreadystatechange = function () {
+                if (req.readyState == 4 && req.status == 200) {
+                    xmlDoc = req.responseXML;
+                    txt = "";
+                    x = xmlDoc.getElementsByTagName("name");
+                    for (i = 0; i < x.length; i++) {
+                        txt = txt + x[i].childNodes[0].nodeValue + "<br>";
+                    }
+                    document.getElementById("demo").innerHTML = txt;
+                } 
+            } 
+            console.log("info")
+            req.open("GET", "ajax1.xml", true);
+            req.send();
+        }
+    </script>
+</body>
+
+</html>

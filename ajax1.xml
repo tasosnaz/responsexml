@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<user_data>
+    <user1>
+        <name> John</name>
+        <sirname> Νikou </sirname>
+        <address> Ermou 30</address>
+        <email> giannisnik@hotmail.com</email>
+        <phone> 6906432189</phone>
+    </user1>
+    <user2>
+        <name>Sakis</name>
+        <sirname>Konstantinidis</sirname>
+        <address>Aristotelous 10</address>
+        <email>Sakiskvnw@hotmail.com</email>
+        <phone>6946432189</phone>
+    </user2>
+
+    <user3>
+        <name>Andreas</name>
+        <sirname>Eleutheriadis</sirname>
+        <address>Mikras asias 12</address>
+        <email>Andreaseleuth@gmail.com</email>
+        <phone>6978932189</phone>
+    </user3>
+    <user4>
+        <name>Calliope</name>
+        <sirname>Alexouli</sirname>
+        <address>Praxitelous 3</address>
+        <email>Alexkal@gmail.com</email>
+        <phone>6946432336</phone>
+    </user4>
+    <user5>
+        <name>Alkis</name>
+        <sirname>Sevastos</sirname>
+        <address>Ploutonos 52</address>
+        <email>alkissev@gmail.com</email>
+        <phone>6946438039</phone>
+    </user5>
+    <user6>
+        <name>Maria</name>
+        <sirname>Iliaki</sirname>
+        <address>Artakis 13/5</address>
+        <email>mariailiaki@gmail.com</email>
+        <phone>6946432532</phone>
+    </user6>
+    <user7>
+        <name>Catherine</name>
+        <sirname>Apostolaki</sirname>
+        <address>Avenue Venizelou Sofokli 103</address>
+        <email>Κateapostolaki@hotmail.gr</email>
+        <phone>6946432451</phone>
+    </user7>
+    <user8>
+        <name>Kostas</name>
+        <sirname>Nikolaou</sirname>
+        <address>Archimidous 27</address>
+        <email>kwstasnikolaoy@gmail.com</email>
+        <phone>6934332189</phone>
+    </user8>
+    <user9>
+        <name>Matthaios</name>
+        <sirname>Skoulos</sirname>
+        <address>Panioniou 7-9</address>
+        <email>Mathskk@hotmail.com</email>
+        <phone>6940362189</phone>
+        <user10>
+            <name>Kostas</name>
+            <sirname>Nikolaou</sirname>
+            <address>Archimidous 27</address>
+            <email>kwstasnikolaoy@gmail.com</email>
+            <phone>6934332189</phone>
+        </user10>
+
+
+    </user_data>
